@@ -10,9 +10,11 @@ router.get('/', controller.get);
 /* Método GetBySlug */
 router.get('/:slug', controller.getBySlug);
 
-/* Método GetBySlug */
+/* Método GetById */
 router.get('/admin/:id', controller.getById);
 
+/* Método GetByTag */
+router.get('/tags/:tag', controller.getByTag);
 
 /* Método Post */
 router.post('/', controller.post);

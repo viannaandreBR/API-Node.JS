@@ -1,4 +1,4 @@
-# API-Node.JS
+# API-Node.JS v0.20
 
 Especificação API Node.JS
 
@@ -27,7 +27,8 @@ Especificação API Node.JS
 - Listando um Produto pelo slug - v0.18
 - Get Method By Id - v0.19
 - Listando um Produto pelo Id - v0.19 
-- Listando os Produtos de uma tag 
+- Get Method by Tag - v0.20
+- Listando os Produtos de uma tag - v0.20 
 - Atualizando um produto
 - Excluindo um produto
 - Validações
