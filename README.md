@@ -19,11 +19,12 @@ vRotas
 - Schema MongoDB - v0.15
 - Models - v0.16
 - Post Method with Mongo DB - v0.16
-- Criando um Produto
-- Listando os Produtos
-- Listando um Produto pelo slug
-- Listando um Produto pelo Id
-- Listando os Produtos de uma tag
+- Criando um Produto - v0.16
+- Get Method with Mongo DB - v0.17
+- Listando os Produtos - v0.17
+- Listando um Produto pelo slug - v0.17
+- Listando um Produto pelo Id - v0.17
+- Listando os Produtos de uma tag - v0.17
 - Atualizando um produto
 - Excluindo um produto
 - Validações

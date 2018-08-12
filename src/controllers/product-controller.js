@@ -3,6 +3,19 @@
 const mongoose = require('mongoose');
 const Product = mongoose.model('Product');
 
+exports.get = (get,res,next) => {
+    Product
+    .find({
+        active: true
+    }, 'title price slug')
+    .then(data => {
+        res.status(200).send(data);
+         
+    }).catch(e => {
+        res.status(400).send(e);
+     });
+
+}
 
 /* Método Post  */
 exports.post = (req, res, next) => {

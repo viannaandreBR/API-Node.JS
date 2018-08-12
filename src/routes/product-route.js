@@ -4,6 +4,11 @@ const express = require('express');
 const router = express.Router();
 const controller = require('../controllers/product-controller');
 
+
+/* Método Get */
+router.get('/', controller.get);
+
+
 /* Método Post */
 router.post('/', controller.post);
 
@@ -17,13 +22,13 @@ module.exports = router;
 
 
 
-
+/*
 router.post('/', (req, res, next) => {
     res.status(201).send(req.body);
 });
 
 
-/* Método Put */
+/* Método Put 
 
 router.put('/:id', (req, res, next) => {
     const id = req.params.id;
@@ -33,9 +38,10 @@ router.put('/:id', (req, res, next) => {
     });
 });
 
-/* Método Delete */
+/* Método Delete 
 
 router.delete('/', (req, res, next) => {
     res.status(200).send(req.body);
 });
 
+*/
