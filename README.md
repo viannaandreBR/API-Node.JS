@@ -17,7 +17,8 @@ vRotas
 - MongoDb Setup - v0.13
 - Mongooose - v0.14
 - Schema MongoDB - v0.15
-- Models
+- Models - v0.16
+- Post Method with Mongo DB - v0.16
 - Criando um Produto
 - Listando os Produtos
 - Listando um Produto pelo slug
