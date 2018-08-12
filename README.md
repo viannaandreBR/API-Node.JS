@@ -16,6 +16,7 @@ vRotas
 - Controllers
 - MongoDb Setup - v0.13
 - Mongooose - v0.14
+- Schema MongoDB - v0.15
 - Models
 - Criando um Produto
 - Listando os Produtos
