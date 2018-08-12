@@ -1,12 +1,13 @@
 # API-Node.JS
-API Node.JS
 
-Conteúdo Programático - v0.1
+Especificação API Node.JS
+
+- Projeto Conceitual - v0.1
 - Instalação Node, NPM e VS Code - v0.2
 - npm init e instalação dos pacotes - v0.3
 - Criando um servidor Web  - v0.4
-vNormalizando a porta - v0.5
-vGerenciando Erros do Servidor - v0.6
+- vNormalizando a porta - v0.5
+- vGerenciando Erros do Servidor - v0.6
 - Iniciando o Debug - v0.7
 - Separando o Servidor - v 0.8
 - Configurando o NPM Start - v0.9
@@ -24,7 +25,8 @@ vGerenciando Erros do Servidor - v0.6
 - Listando os Produtos - v0.17
 - Get Method By Slug - v0.18
 - Listando um Produto pelo slug - v0.18
-- Listando um Produto pelo Id 
+- Get Method By Id - v0.19
+- Listando um Produto pelo Id - v0.19 
 - Listando os Produtos de uma tag 
 - Atualizando um produto
 - Excluindo um produto

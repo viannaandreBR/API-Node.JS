@@ -27,6 +27,20 @@ exports.getBySlug = (req,res,next) => {
             res.status(400).send(e);
         });
 }
+
+exports.getById = (req,res,next) => {
+    Product
+        .findById(req.params.id)
+        .then(data => {
+            res.status(200).send(data);
+         }).catch(e => {
+            res.status(400).send(e);
+        });
+}
+
+
+
+
 /* Método Post  */
 exports.post = (req, res, next) => {
     var product = new Product(req.body);
