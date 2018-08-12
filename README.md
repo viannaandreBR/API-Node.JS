@@ -1,6 +1,6 @@
 # API-Node.JS v0.20
 
-Especificação API Node.JS
+Especificação API Node.JS - Métodos Get, Post, Put, Delete
 
 - Projeto Conceitual - v0.1
 - Instalação Node, NPM e VS Code - v0.2
