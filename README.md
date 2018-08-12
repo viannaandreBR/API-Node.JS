@@ -15,7 +15,7 @@ vGerenciando Erros do Servidor
 vRotas
 - Controllers
 - MongoDb Setup - v0.13
-- Mongooose
+- Mongooose - v0.14
 - Models
 - Criando um Produto
 - Listando os Produtos
