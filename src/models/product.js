@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 // const schema
-const Schema = new Schema({
+const schema = new Schema({
     title:  {
         type: String,
         required: true,
@@ -11,7 +11,7 @@ const Schema = new Schema({
     },
     slug: {
         type: String,
-        required: true,
+        required: [true, 'O slug é obrigatório'],
         trim: true,
         index: true,
         unique: true

@@ -11,7 +11,7 @@ const router = express.Router();
 mongoose.connect('mongodb://biolabs:biolabs1@ds219432.mlab.com:19432/biolabs');
 
 //carraga os Models
-// const Product = require('./models/product');
+const Product = require('./models/product');
 
 // Carrega Rotas
 const indexRoute = require('./routes/index-route');
