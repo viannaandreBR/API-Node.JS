@@ -4,10 +4,11 @@ const express = require('express');
 const router = express.Router();
 const controller = require('../controllers/product-controller');
 
-
 /* Método Get */
 router.get('/', controller.get);
 
+/* Método GetBySlug */
+router.get('/:slug', controller.getBySlug);
 
 /* Método Post */
 router.post('/', controller.post);
