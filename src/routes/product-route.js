@@ -24,6 +24,7 @@ router.put('/:id', controller.put);
 
 /* Método Delete */ 
 router.delete('/', controller.delete);
+//router.delete('/:id', controller.delete);
 
 module.exports = router;
 

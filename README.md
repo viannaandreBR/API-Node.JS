@@ -1,7 +1,12 @@
-# API-Node.JS v0.21
+# API-Node.JS v0.22
 
-Especificação API Node.JS - Métodos Get, Post, Put, Delete
+API Node.JS Specification - Methods Get, Post, Put, Delete
+Infrastructure:
+    - Data Base NoSQL Mongo DB
+    - NodeJS
+    - Mongoose
 
+Versions Controls:
 - Projeto Conceitual - v0.1
 - Instalação Node, NPM e VS Code - v0.2
 - npm init e instalação dos pacotes - v0.3
@@ -31,7 +36,8 @@ Especificação API Node.JS - Métodos Get, Post, Put, Delete
 - Listando os Produtos de uma tag - v0.20
 - Put Method with Mongo DB - v0.21
 - Atualizando um produto - v0.21
-- Excluindo um produto
+- Del Method with Mongo DB - v0.22
+- Excluindo um produto - v0.22
 - Validações
 - Repositórios
 - Async/Await
