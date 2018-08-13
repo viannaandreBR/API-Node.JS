@@ -1,4 +1,4 @@
-# API-Node.JS v0.20
+# API-Node.JS v0.21
 
 Especificação API Node.JS - Métodos Get, Post, Put, Delete
 
@@ -28,8 +28,9 @@ Especificação API Node.JS - Métodos Get, Post, Put, Delete
 - Get Method By Id - v0.19
 - Listando um Produto pelo Id - v0.19 
 - Get Method by Tag - v0.20
-- Listando os Produtos de uma tag - v0.20 
-- Atualizando um produto
+- Listando os Produtos de uma tag - v0.20
+- Put Method with Mongo DB - v0.21
+- Atualizando um produto - v0.21
 - Excluindo um produto
 - Validações
 - Repositórios
