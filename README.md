@@ -1,11 +1,19 @@
-# API-Node.JS v0.22
+# API-Node.JS v0.23
 
+-----------------------------------------------------------
+Update 0.23:
+    - Método de Validação de entradas
+
+
+-----------------------------------------------------------
+Subject:
 API Node.JS Specification - Methods Get, Post, Put, Delete
 Infrastructure:
     - Data Base NoSQL Mongo DB
     - NodeJS
     - Mongoose
 
+-----------------------------------------------------------
 Versions Controls:
 - Projeto Conceitual - v0.1
 - Instalação Node, NPM e VS Code - v0.2
@@ -38,7 +46,7 @@ Versions Controls:
 - Atualizando um produto - v0.21
 - Del Method with Mongo DB - v0.22
 - Excluindo um produto - v0.22
-- Validações
+- Métodos de Validações de entrada v.0.23
 - Repositórios
 - Async/Await
 - Revisitando os Models: Customer
