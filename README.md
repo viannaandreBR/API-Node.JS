@@ -1,9 +1,8 @@
-# API-Node.JS v0.23
+# API-Node.JS v0.24
 
 -----------------------------------------------------------
-Update 0.23:
-    - Método de Validação de entradas
-
+Update 0.24:
+    - Repositório de Métodos Node.JS
 
 -----------------------------------------------------------
 Subject:
@@ -46,8 +45,8 @@ Versions Controls:
 - Atualizando um produto - v0.21
 - Del Method with Mongo DB - v0.22
 - Excluindo um produto - v0.22
-- Métodos de Validações de entrada v.0.23
-- Repositórios
+- Métodos de Validações de entrada - v.0.23
+- Repositórios - v0.24
 - Async/Await
 - Revisitando os Models: Customer
 - Revisitando os Models: Order
