@@ -1,8 +1,8 @@
-# API-Node.JS v0.24
+# API-Node.JS v0.25
 
 -----------------------------------------------------------
-Update 0.24:
-    - Repositório de Métodos Node.JS
+Update 0.25:
+    - Async/Await
 
 -----------------------------------------------------------
 Subject:
@@ -47,7 +47,7 @@ Versions Controls:
 - Excluindo um produto - v0.22
 - Métodos de Validações de entrada - v.0.23
 - Repositórios - v0.24
-- Async/Await
+- Async/Await - v0.25
 - Revisitando os Models: Customer
 - Revisitando os Models: Order
 - Revisitando os Controllers: Customer
@@ -63,3 +63,5 @@ Versions Controls:
 - Outros
 - Publicando a API
 - Conclusão
+
+-----------------------------------------------------------

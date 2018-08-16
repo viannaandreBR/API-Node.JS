@@ -6,14 +6,18 @@ const ValidationContract = require('../validators/fluent-validator');
 const repository = require('../repositories/product-repository');
 
 
-exports.get = (get,res,next) => {
-    repository.get()
-        .then(data => {
-            res.status(200).send(data);
-         }).catch(e => {
-            res.status(400).send(e);
+exports.get = async (get,res,next) => {
+    try {
+        var data = await repository.get();
+        res.status(200).send(data);
+    } catch(e) {
+        res.status(500).send({
+            message: 'Falha ao processar sua requisição'
         });
+    }
 }
+    
+
 
 exports.getBySlug = (req,res,next) => {
     repository

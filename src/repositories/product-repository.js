@@ -2,11 +2,12 @@
 const mongoose = require('mongoose');
 const Product = mongoose.model('Product');
 
-exports.get = () => {
-    return Product
-        .find({
-            active: true
-        }, 'title price slug');
+// Módulo Get - 0.25 - 03:23
+exports.get = async () => {
+    const res = await Product.find({
+        active: true
+    }, 'title price slug');
+    return res;
 }
 
 exports.getBySlug  = (slug) => {
